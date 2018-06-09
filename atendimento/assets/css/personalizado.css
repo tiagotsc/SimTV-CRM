@@ -1,0 +1,271 @@
+/* Barra da div fixa para chamar e atender os clientes */
+#barra_top{
+	z-index: 1;
+	position:fixed; 
+    right:0; 
+    top: 60; 
+	text-align: center;
+	border-bottom: 2px solid #1874CD;
+	padding-right: 5px;
+	background-color: #1E90FF;
+	font-weight: bold;
+	width:350px;
+	/*float: right;*/
+	
+}
+
+/* Div fixa para chamar e atender os clientes */
+#dados_barra_top{
+	z-index: 1;
+    position:fixed; 
+    right:0; 
+    top: 100px; 
+    width:350px; 
+    height:250px; 
+    background:white;
+	border: 2px solid #1874CD;
+}
+
+#barra_top .expander{
+	color: white;
+}
+
+/* Div que será exibida e oculta */
+.content {
+	display:none;
+}
+
+.voltar_avancar{
+	text-align: center; 
+	font-size: 40px;
+	cursor: pointer;
+}
+
+/*DIV*/
+#numero_especifico{
+	text-align: center; 
+	padding-top: 10px;
+}
+
+/*INPUT*/
+#numero_atendimento{
+	width: 50px; 
+	font-size: 20px;
+}
+
+/* BOTÃO ATEDER*/
+bt_atender{
+	margin-top: 0;
+}
+
+/*
+    ARQUIVO CRIADO PARA PERSONALIZAR LAYOUT
+*/
+/*
+#divMain .actions{
+    margin-top:10px;
+}
+*/
+.tabela-div{
+    margin-top: 10px;
+}
+
+label{
+    display: block;
+}
+
+/* JQUERY VALIDADE - ERRO DE PREENCHIMENTO */
+label.error { 
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    font-weight: bold;
+}
+
+/* TABELA - ALTERNA AS CORES DAS LINHAS IMPÁRES E PARES */
+table > tbody > tr:nth-child(even) > td,
+table > tbody > tr:nth-child(even) > th {
+    background-color:#CCC;
+}
+
+/* TABELA - ALINHAMENTO CENTRALIZADO DA ÚLTIMA COLUNA DA TABELA */
+table tbody tr td:last-child{
+    text-align: center;
+}
+
+/* TABELA - ALINHAMENTO CENTRALIZADO DA ÚLTIMA COLUNA DA TABELA */
+table th:last-child{
+    text-align: center;
+}
+
+/* AUMENTA E DÁ UM ESPAÇAMENTO DIREITO NOS ICONES */
+.icone{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* DESTACA A PÁGINA ATIVA DA PAGINAÇÃO */
+#paginacaoAtiva{
+    color: black;
+}
+
+/* DEIXA VERMELHO O ASTERISTICO DO CAMPO OBRIGATÓRIO */
+.obrigatorio{
+    color: red;
+}
+
+/* ESPAÇAMENTO ESQUERDO NOS SPAN DA LISTA DE RELATÓRIOS */
+.spanRelatorio{
+    padding-left:10px;
+}
+/*
+#pInstrucoes{
+    font-size: 13px;
+}
+
+#linhaExcluida{
+    color: red;
+}
+*/
+/* ESTILIZA OS H5 DOS GRÁFICOS */
+.tituloGrafico{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* LINK DO DESCRIVO DE ALGUMA FUNCIONALIDADE */
+/*.descritivo_manual{
+    float: right;
+    font-weight: normal;
+}
+*/
+#idPermissoes{
+    list-style-type: none;
+}
+
+.linkDireita{
+    float: right;
+}
+/*
+.sublinhado{
+    text-decoration:  underline;
+}
+
+#usuario{
+    text-align: right; 
+    padding: 10px 110px 10px 10px;
+}
+*/
+
+/*
+PERSONALIZAÇÃO DO DRAG AND DROP
+*/
+#lista_perfis_relatorio{
+    overflow:auto; 
+    height: 180px;
+}
+
+#sourceFields{
+	background-color: #ccc;
+	width: 50%;
+	height: 100%;
+}
+
+#destinationFields{
+	background-color: #ccc;
+	width: 50%;
+	height: 100%;
+}
+
+#sourceFields div{
+	width: 98%;
+}
+
+#destinationFields div{
+	width: 98%;
+}
+
+/*####################*/
+
+#sourceFields2{
+	background-color: #ccc;
+	width: 50%;
+	height: 100%;
+}
+
+#destinationFields2{
+	background-color: #ccc;
+	width: 50%;
+	height: 100%;
+}
+
+#sourceFields2 div{
+	width: 98%;
+}
+
+#destinationFields2 div{
+	width: 98%;
+}
+
+hr{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+#config_atendente input{
+    width: 100%;
+}
+
+#info_guiche{
+	margin: 5px;
+}
+
+#info_guiche a{
+	font-variant: small-caps;
+}
+
+/* Div que exibe o nome do usuário no sistema */
+#exibe_nome{
+	z-index: 1;
+	position:fixed; 
+    right:550px; 
+    top: 60; 
+	text-align: left;
+	width:200px;
+	padding-top:7px;
+	/*float: right;*/
+	
+}
+
+/* Div que exibe o número da senha que esta sendo atendida */
+#numero_exibicao{
+	font-size: 80px;
+	text-align: center;
+}
+
+/* Div que exibe o número da senha que esta sendo atendida */
+#nome_exibicao{
+	font-size: 35px;
+	text-align: center;
+}
+
+/* Risca o texto */
+.riscaTexto{
+	text-decoration: line-through;
+}
+
+/* Coloca uma altura na div de espaçamento */
+#numero_atendido{
+	height: 150px;
+}
+
+.textoVermelho{
+	color: red;
+}

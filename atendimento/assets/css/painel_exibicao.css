@@ -1,0 +1,67 @@
+html{
+	background-color: #4682B4;
+}
+
+body{
+	padding: 0px; 
+	margin: 0px; 
+	background-color: #4682B4; 
+}
+
+/*
+ Personaliza o título da tela de exibição de senha
+*/
+#titulo{
+    font-size:50px; 
+	font-weight: bold;
+    background-color: #4682B4;
+	padding-left: 50px;
+    font-family: fantasy;
+	text-shadow: #FFF 1px 1px 1px;
+	/*text-shadow: 2px -2px 10px black;
+	color: white;*/
+}
+
+/*
+ Personaliza a senha da tela de exibição de senha
+*/
+#senha_atendimento{
+    font-size: 350px;
+    background-color: #4682B4;
+	text-shadow: #FFF 1px 1px 1px;
+    text-align: center; 
+    font-family: fantasy;
+}
+
+/*
+ Personaliza o guichê da tela de exibição de senha
+*/
+#guiche{
+    font-size: 130px;
+    background-color: #4682B4;
+	text-shadow: #FFF 1px 1px 1px;
+    font-family: fantasy;
+	padding-left: 50px;
+}
+
+/*
+ Personaliza o número da tela de exibição de senha
+*/
+#numero_guiche{
+    font-size: 130px; 
+    background-color: #4682B4; 
+    text-align: right; 
+    font-family: fantasy;
+	text-shadow: #FFF 1px 1px 1px;
+	padding-right: 50px;
+}
+
+/*
+	Botão tela cheia
+*/
+#div_fullscreen{
+	background-color: #4682B4;
+	text-align: right; 
+	font-size: 30px; 
+	padding: 20px;
+}

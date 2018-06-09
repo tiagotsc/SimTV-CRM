@@ -1,0 +1,114 @@
+html{
+	background-color: #4682B4;
+}
+
+body{
+	padding: 0px; 
+	margin: 0px; 
+	background-color: #4682B4; 
+	color: white; 
+	font-variant: small-caps;
+}
+
+/*
+	Personaliza o título da tela de registro de senha
+*/
+#titulo{
+    text-align: center; 
+	font-size: 30px; 
+	padding: 20px 20px 20px 20px;
+}
+
+/*
+	Estilo alerta
+*/
+#alerta{
+	text-align: center; 
+	font-size: 30px; 
+	font-weight: bold;
+    display: none;
+}
+
+/*
+	Botão tela cheia
+*/
+#div_fullscreen{
+	text-align: right; 
+	font-size: 30px; 
+	padding: 20px;
+}
+
+/*
+	Quadro de visualização da câmera
+*/
+#divWebCam{
+	text-align: center;
+}
+
+/*
+	Div que contém a combo
+*/
+#divCombo{
+	margin:5px; 
+	display: none;
+}
+
+/*
+	Combo de seleção de câmera
+*/
+#cameraNames{
+	width:245px;
+	font-size:10px;
+	height:25px;
+}
+
+#img_ilustracao{
+	text-align: center; 
+	font-size: 30px; 
+	padding: 20px;
+}
+
+#botao{
+	width: 400px; 
+	height: 200px; 
+	font-size: 50px; 
+	font-weight: bold;
+}
+
+/* Deixa div cupom oculta para visualização*/
+p#cupomSenha{
+    display: none;
+    font-weight: bold;
+    font-size: 40px;
+} 
+
+/* CSS para impressão do cupom de senha */
+@media print {
+    
+    #ocultaTitulo{
+        display: none;
+    }
+    
+    #ocultaBotao{
+        display: none;
+    }
+    
+    body#cupomSenha{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    body {
+        margin:0px;
+        padding:0px;
+        line-height: 1.4em;
+    }  
+    
+    @page {
+        margin: 0.5cm;
+    }
+    
+}
